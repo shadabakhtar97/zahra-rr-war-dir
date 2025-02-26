@@ -12,7 +12,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Copy the WAR file to Tomcat webapps directory
-                sh 'cp SampleWebApp.war /home/ec2-user/apache-tomcat-9.0.86/webapps'
+                sh 'cp SampleWebApp.war /home/ec2-user/apache-tomcat-9.0.100/webapps'
             }
         }
     }
